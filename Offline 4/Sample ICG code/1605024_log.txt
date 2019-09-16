@@ -1,0 +1,15 @@
+	New ScopeTable with id 2 created
+
+	ScopeTable with id 2 removed
+
+	New ScopeTable with id 3 created
+
+	ScopeTable with id 3 removed
+
+	New ScopeTable with id 4 created
+
+	ScopeTable with id 4 removed
+
+Line Count: 43
+
+Error Count: 0
