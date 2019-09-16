@@ -1,0 +1,28 @@
+Error at Line 22 : Undeclared Variable: b
+
+Error at line 22 : non-Integer operand on modulus operator
+
+Error at Line 23 : Undeclared Variable: b
+
+Error at Line 41: Function Parameter Count Mismatch
+
+Error at Line 46: Function Parameter Count Mismatch
+
+Error at Line 47: Multiple Declaration of sweet
+
+Error at Line 54: Multiple Declaration of kazi
+
+Error at Line 64 : Undeclared Variable: s
+
+Error at Line 89: Function Parameter Type Mismatch
+
+Error at line: 90 : Function parameter type mismatch
+
+Error at line: 90 : Function parameter type mismatch
+
+Error at line: 90 : Function parameter type mismatch
+
+Error at line: 90 : Function parameter type mismatch
+
+Total Errors: 13
+
