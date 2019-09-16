@@ -1,0 +1,163 @@
+Line No. 1: Token <ID> Lexeme iffor found
+
+	ScopeTable # 1
+	6 --> <iffor, ID> 
+
+Line No. 2: Token <CASE> Lexeme case found
+
+Line No. 3: Token <ADDOP> Lexeme - found
+
+	ScopeTable # 1
+	3 --> <-, ADDOP> 
+	6 --> <iffor, ID> 
+
+Line No. 3: Token <CONST_INT> Lexeme 23 found
+
+	ScopeTable # 1
+	3 --> <-, ADDOP> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 4: Token <CONST_CHAR> Lexeme 'a' found
+
+	ScopeTable # 1
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Error at line 4: Multi character constant error 'uh'
+
+Line No. 4: Token <CONST_CHAR> Lexeme '\\' found
+
+	ScopeTable # 1
+	1 --> <'\\', CONST_CHAR> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 4: Token <CONST_CHAR> Lexeme '\"' found
+
+	ScopeTable # 1
+	1 --> <'\\', CONST_CHAR> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 4: Token <CONST_CHAR> Lexeme '\0' found
+
+	ScopeTable # 1
+	1 --> <'\\', CONST_CHAR> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 5: Token <MULOP> Lexeme % found
+
+	ScopeTable # 1
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 5: Token <MULOP> Lexeme * found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 5: Token <SEMICOLON> Lexeme ; found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> <;, SEMICOLON> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Error at line 6: Invalid prefix on ID or invalid suffix on Number 12abc
+
+Line No. 7: Token <ID> Lexeme _abc found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> <_abc, ID> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> <;, SEMICOLON> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 8: Token <STRING> Lexeme "Sheha\nb" found
+
+Line No. 9: Token <STRING> Lexeme "Shehab\
+Sarar\
+Ahmed" found
+
+Line No. 12: Token <COMMENT> Lexeme //haha found
+
+Line No. 13: Token <COMMENT> Lexeme /*sdfhnsjgbds
+guisdfgnbsrs*/ found
+
+Error at line 15: Too many decimal point 3.4.5343453.342323.324524
+
+Error at line 16: Invalid prefix on ID or invalid suffix on Number 2e.2323e.3434
+
+Line No. 17: Token <CONST_FLOAT> Lexeme 1.2 found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> <_abc, ID> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> <;, SEMICOLON> <1.2, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> 
+	6 --> <iffor, ID> 
+
+Line No. 18: Token <CONST_FLOAT> Lexeme 1.2e-3 found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> <_abc, ID> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> <;, SEMICOLON> <1.2, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> <1.2e-3, CONST_FLOAT> 
+	6 --> <iffor, ID> 
+
+Line No. 19: Token <ADDOP> Lexeme - found
+
+	Lexeme - Found in ScopeTable# 1 at position 3, 0
+
+Line No. 19: Token <CONST_FLOAT> Lexeme .2E+03 found
+
+	ScopeTable # 1
+	0 --> <*, MULOP> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <%, MULOP> <_abc, ID> 
+	3 --> <-, ADDOP> <'a', CONST_CHAR> <;, SEMICOLON> <1.2, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <23, CONST_INT> <1.2e-3, CONST_FLOAT> <.2E+03, CONST_FLOAT> 
+	6 --> <iffor, ID> 
+
+Error at line 20: Unterminated character '\
+
+Error at line 21: Unterminated string "zaara
+
+Error at line 22: Unrecognised character `
+Error at line 23: Unterminated comment /*
+sdfsd
+
+
+Total Lines: 25
+Total Errors: 8

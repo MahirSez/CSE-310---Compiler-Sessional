@@ -1,0 +1,296 @@
+Line No. 2: Token <CONST_FLOAT> Lexeme 9.7 found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> 
+
+Error at line 4: Unrecognised character .
+
+Error at line 6: Too many decimal point 5..5
+
+Line No. 8: Token <CONST_FLOAT> Lexeme 5.5 found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 10: Token <CONST_FLOAT> Lexeme .5 found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Error at line 13: Too many decimal point ...5
+
+Error at line 16: Too many decimal point 5...5...
+
+Error at line 18: Too many decimal point 5...5
+
+Error at line 20: Too many decimal point ...5...5
+
+Error at line 22: Too many decimal point ...5...5...5
+
+Error at line 25: Too many decimal point ...5e4
+
+Error at line 28: Too many decimal point 5...5...e5
+
+Error at line 30: Too many decimal point 5...5e0
+
+Error at line 32: Too many decimal point ...5...5e5
+
+Error at line 34: Too many decimal point ...5...5...5e7123
+
+Line No. 37: Token <CONST_FLOAT> Lexeme 1e3 found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> 
+	3 --> <1e3, CONST_FLOAT> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Error at line 38: Ill formed number 1e3.3
+
+Error at line 39: Ill formed number 1e3.3.3
+
+Error at line 40: Ill formed number 1e
+
+Error at line 41: Ill formed number 1e.
+
+Error at line 42: Ill formed number 1e...
+
+Error at line 43: Ill formed number 1e..2...
+
+Error at line 46: Ill formed number 1.3e
+
+Error at line 47: Ill formed number .e
+
+Error at line 48: Ill formed number e.
+
+Error at line 49: Ill formed number 11e4.5
+
+Error at line 50: Ill formed number 11.234.234.....e......333.......
+
+Error at line 52: Ill formed number .....e.........
+
+Error at line 54: Ill formed number .e.
+
+Error at line 55: Ill formed number 1.e.
+
+Error at line 56: Too many decimal point 1123.123123.123e44
+
+Error at line 59: Invalid prefix on ID or invalid suffix on Number 123.221efhkbe24e.1231.
+
+Error at line 61: Invalid prefix on ID or invalid suffix on Number q23.2
+
+Error at line 62: Invalid prefix on ID or invalid suffix on Number qw2.2.2
+
+Error at line 65: Invalid prefix on ID or invalid suffix on Number asfb.
+
+Error at line 66: Invalid prefix on ID or invalid suffix on Number wjb.13
+
+Error at line 68: Invalid prefix on ID or invalid suffix on Number 231.2dfg
+
+Error at line 69: Invalid prefix on ID or invalid suffix on Number 123ksgi4e3.rg
+
+Error at line 71: Invalid prefix on ID or invalid suffix on Number ....234..2342hkjbdfg
+
+Error at line 72: Invalid prefix on ID or invalid suffix on Number ....234..2342hkjbdfg....
+
+Line No. 75: Token <CONST_CHAR> Lexeme '\n' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 75: Token <CONST_CHAR> Lexeme '\t' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\\' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\"' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\a' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\f' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\r' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\b' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\v' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> <'\v', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Line No. 76: Token <CONST_CHAR> Lexeme '\0' found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> <'\v', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Error at line 78: Multi character constant error '\c'
+
+Error at line 78: Multi character constant error '\y'
+
+Error at line 78: Multi character constant error 'asd 			df'
+
+Error at line 78: Unterminated character '
+
+Error at line 79: Unterminated character '
+
+Error at line 81: Multi character constant error 'o o'
+
+Error at line 84: Unterminated character '\'
+
+Error at line 84: Unterminated character '
+
+Error at line 86: Unterminated character '\t
+
+Error at line 88: Multi character constant error '\t   \n'
+
+Error at line 89: Multi character constant error '\t   sdf'
+
+Error at line 90: Multi character constant error 'awje	\t'
+
+Error at line 92: Unterminated character '\'
+
+Error at line 94: Unterminated character 's
+
+Line No. 94: Token <ID> Lexeme sdf found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> <sdf, ID> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> <'\v', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Error at line 96: Empty character constant error ''
+
+Line No. 99: Token <STRING> Lexeme "sdfsd" found
+
+Error at line 100: Unterminated string "sdsd\
+
+
+Error at line 102: Unterminated string "asdasd
+
+Error at line 103: Unterminated string "asdas\
+asd
+
+Error at line 105: Unterminated string "asdasd\
+\
+asdsa
+
+Error at line 108: Unrecognised character \
+Line No. 109: Token <ID> Lexeme as found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> <sdf, ID> 
+	2 --> <'\n', CONST_CHAR> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> <'\v', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> <as, ID> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Line No. 112: Token <STRING> Lexeme "asdasd\
+\
+asdsa\
+\
+as\
+" found
+
+Error at line 119: Unterminated string "sdadsd
+
+Line No. 120: Token <ID> Lexeme asds found
+
+	ScopeTable # 1
+	0 --> <9.7, CONST_FLOAT> <'\t', CONST_CHAR> <'\f', CONST_CHAR> 
+	1 --> <'\\', CONST_CHAR> <sdf, ID> 
+	2 --> <'\n', CONST_CHAR> <asds, ID> 
+	3 --> <1e3, CONST_FLOAT> <'\r', CONST_CHAR> 
+	4 --> <'\"', CONST_CHAR> <'\a', CONST_CHAR> <'\v', CONST_CHAR> <'\0', CONST_CHAR> 
+	5 --> <.5, CONST_FLOAT> <as, ID> 
+	6 --> <5.5, CONST_FLOAT> <'\b', CONST_CHAR> 
+
+Error at line 120: Unterminated string "
+
+Line No. 122: Token <STRING> Lexeme "" found
+
+Total Lines: 122
+Total Errors: 58

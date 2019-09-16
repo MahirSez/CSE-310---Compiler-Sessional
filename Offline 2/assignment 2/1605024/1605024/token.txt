@@ -1,0 +1,2 @@
+<CONST_FLOAT, 9.7> <CONST_FLOAT, 5.5> <CONST_FLOAT, .5> <CONST_FLOAT, 1e3> <CONST_CHAR, 
+> <CONST_CHAR, 	> <CONST_CHAR, \> <CONST_CHAR, "> <CONST_CHAR, > <CONST_CHAR, > <CONST_CHAR, > <CONST_CHAR, > <CONST_CHAR, > <CONST_CHAR, > <ID, sdf> <STRING, "sdfsd"> <ID, as> <STRING, "asdasdasdsaas"> <ID, asds> <STRING, ""> 
